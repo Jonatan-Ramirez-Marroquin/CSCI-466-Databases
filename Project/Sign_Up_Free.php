@@ -3,7 +3,7 @@
 	include("personal_Login.php");
 	try{
 		//Provide information on specific Artist.
-		$dsn = "mysql:host=courses;dbname=z1912344";
+		$dsn = "mysql:host=courses;dbname=mydatabase";
 		$pdo = new PDO($dsn, $userName, $password);
 		$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
@@ -56,7 +56,7 @@
 		Send user back to Home Page
 		-->
 		<h2>Return to Home</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/htmlPage_Project.php" method = "GET">
+		<form action = "http://students.cs.niu.edu/~mydatabase/htmlPage_Project.php" method = "GET">
 			<input type = "Submit" name = "Submit" value = "Submit"/>	
 		</form>
 		<br>
