@@ -39,7 +39,7 @@ Jonatan Ramirez-Marroquin
 	include("personal_Login.php");
 	try{
 		//Provide Free Queue table.
-		$dsn = "mysql:host=courses;dbname=z1912344";
+		$dsn = "mysql:host=courses;dbname=mydatabase";
 		$pdo = new PDO($dsn, $userName, $password);
 		$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 		$rsPart = $pdo->query("SELECT userName, songName, artistName, karaokeID, time 
@@ -111,7 +111,7 @@ Jonatan Ramirez-Marroquin
 		Return to Main Page
 		-->
 		<h2>Return to Home</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/htmlPage_Project.php" method = "GET">
+		<form action = "http://students.cs.niu.edu/~mydatabase/htmlPage_Project.php" method = "GET">
 			<input type = "Submit" name = "Submit" value = "Home"/>
 		</form>
 	</body>
