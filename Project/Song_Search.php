@@ -35,7 +35,7 @@ Jonatan Ramirez-Marroquin
 		Searching by Artist
 		-->
 		<h2>Search by Artist</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/Search_Artist.php" method = "GET">
+		<form action = "http://students.cs.niu.edu/~mydatabase/Search_Artist.php" method = "GET">
 			Artist Name:<input type = "text" name = "artistName"/>
 			<br>
 			<br>
@@ -48,7 +48,7 @@ Jonatan Ramirez-Marroquin
 		Search by Title
 		-->
 		<h2>Search by Song Title</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/Search_Title.php" method = "GET">
+		<form action = "http://students.cs.niu.edu/~mydatabase/Search_Title.php" method = "GET">
 			Song Title:<input type = "text" name = "songTitle"/>
 			<br>
 			<br>
@@ -61,7 +61,7 @@ Jonatan Ramirez-Marroquin
 		Search by Contributor
 		-->
 		<h2>Search by Contributor (Author, Singer, Guitarist, Drummer, etc.)</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/Search_Contributor.php" method = "GET">
+		<form action = "http://students.cs.niu.edu/~mydatabase/Search_Contributor.php" method = "GET">
 			Contributor Name:<input type = "text" name = "contributorName"/>
 			<br>
 			<br>
@@ -74,7 +74,7 @@ Jonatan Ramirez-Marroquin
 		Return to Main Page
 		-->
 		<h2>Return to Home</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/htmlPage_Project.php" method = "GET">
+		<form action = "http://students.cs.niu.edu/~mydatabase/htmlPage_Project.php" method = "GET">
 			<input type = "Submit" name = "Submit" value = "Home"/>
 		</form>
 	</body>
