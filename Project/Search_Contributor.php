@@ -3,7 +3,7 @@
 	include("personal_Login.php");
 	try{
 		//Provide information on specific contributor.
-		$dsn = "mysql:host=courses;dbname=z1912344";
+		$dsn = "mysql:host=courses;dbname=mydatabase";
 		$pdo = new PDO($dsn, $userName, $password);
 		$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 		$sqlCode = "SELECT contributorName, contribution, songName, songVersion, karaokeID FROM Contributor JOIN ContributeTo USING (contributorID) JOIN Songs USING (songID) JOIN KaraokeFile USING (songID) WHERE contributorName = ?;";
@@ -57,7 +57,7 @@
 		-->
 		<h2>Sign up to Sing! Pick a song and be sure to press Submit when done!</h2>
 		<h2>Free Queue</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/Sign_Up.php" method = "POST">
+		<form action = "http://students.cs.niu.edu/~mydatabase/Sign_Up.php" method = "POST">
 			Your Name(First and Last):<input type = "text" name = "userName">
 			<br>
 			<br>
@@ -68,7 +68,7 @@
 		</form>
 		<br>
 		<h2>Paid Queue</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/Sign_Up_Paid.php" method = "POST">
+		<form action = "http://students.cs.niu.edu/~mydatabase/Sign_Up_Paid.php" method = "POST">
 			Your Name(First and Last):<input type = "text" name = "userName">
 			<br>
 			<br>
@@ -85,7 +85,7 @@
 		Send user back to Home Page
 		-->
 		<h2>Return to Home</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/htmlPage_Project.php" method = "GET">
+		<form action = "http://students.cs.niu.edu/~mydatabase/htmlPage_Project.php" method = "GET">
 			<input type = "Submit" name = "Submit" value = "Submit"/>
 		</form>
 		<br>
