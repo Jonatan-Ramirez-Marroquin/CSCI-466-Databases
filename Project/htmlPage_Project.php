@@ -31,7 +31,7 @@ Jonatan Ramirez-Marroquin
 		Searching for Songs
 		-->
 		<h2>Search for Songs</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/Song_Search.php" method = "GET">
+		<form action = "http://students.cs.niu.edu/~mydatabase/Song_Search.php" method = "GET">
 			<input type = "Submit" name = "Submit" value = "Search"/>
 		</form>
 		<br>
@@ -40,7 +40,7 @@ Jonatan Ramirez-Marroquin
 		DJ Interface
 		-->
 		<h2>DJ Interface</h2>
-		<form action = "http://students.cs.niu.edu/~z1912344/DJ_Interface.php" method = "GET">
+		<form action = "http://students.cs.niu.edu/~mydatabase/DJ_Interface.php" method = "GET">
 			<input type = "Submit" name = "Submit" value = "DJ Interface"/>
 		</form>
 		<br>
